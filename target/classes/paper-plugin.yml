@@ -1,0 +1,10 @@
+name: Duels
+version: '1.4'
+main: com.mortisdevelopment.duelplugin.DuelPlugin
+api-version: '1.20'
+dependencies:
+  server:
+    Citizens:
+      load: BEFORE
+      required: true
+      join-classpath: true
